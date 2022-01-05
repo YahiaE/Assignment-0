@@ -1,7 +1,5 @@
 function sumOfMinimumAndMaximum(nums) {
-  let max = Math.max(...nums);
-  let min = Math.min(...nums);
-  return max+min;
+  return nums[0] + nums[nums.length-1];
 }
 
 // Do not edit this line;
